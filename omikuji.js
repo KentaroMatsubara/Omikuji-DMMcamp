@@ -1,27 +1,27 @@
 let username;
 let userresult;
 
-username = prompt("‚¨–¼‘O‚ğ‹³‚¦‚Ä‰º‚³‚¢B");
+username = prompt("ãŠåå‰ã‚’æ•™ãˆã¦ä¸‹ã•ã„ã€‚");
 if (username == ""){
-  username = '–¼–³‚µ';
+  username = 'åç„¡ã—';
 }
 
 document.getElementById("name").innerHTML = username;
 
 let rand = Math.floor( Math.random() * 5) ;
 if (rand == 0) {
-  userresult = "‘å‹g";
+  userresult = "å¤§å‰";
 }
 if (rand == 1) {
-  userresult = "’†‹g";
+  userresult = "ä¸­å‰";
 }
 if (rand == 2) {
-  userresult = "¬‹g";
+  userresult = "å°å‰";
 }
 if (rand == 3) {
-  userresult = "‹g";
+  userresult = "å‰";
 }
 if (rand == 4) {
-  userresult = "‹¥";
+  userresult = "å‡¶";
 }
 document.getElementById("result").innerHTML = userresult;
