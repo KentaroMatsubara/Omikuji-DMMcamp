@@ -2,6 +2,10 @@ let username;
 let userresult;
 
 username = prompt("‚¨–¼‘O‚ğ‹³‚¦‚Ä‰º‚³‚¢B");
+if (username == ""){
+  username = '–¼–³‚µ';
+}
+
 document.getElementById("name").innerHTML = username;
 
 let rand = Math.floor( Math.random() * 5) ;
